@@ -1,0 +1,253 @@
+{
+  "score": 0.19888888888888875,
+  "n_items": 27,
+  "items": [
+    {
+      "item_id": "s1_e1_qwen_001",
+      "canonical_id": "s1_e1",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_e1_gpt54mini_001",
+      "canonical_id": "s1_e1",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_e1_gemini_001",
+      "canonical_id": "s1_e1",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s1_e4_qwen_001",
+      "canonical_id": "s1_e4",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_e4_gpt54mini_001",
+      "canonical_id": "s1_e4",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_e4_gemini_001",
+      "canonical_id": "s1_e4",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s1_e5_qwen_001",
+      "canonical_id": "s1_e5",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_e5_gpt54mini_001",
+      "canonical_id": "s1_e5",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_e5_gemini_001",
+      "canonical_id": "s1_e5",
+      "desired_basis": "A",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s2_e1_qwen_001",
+      "canonical_id": "s2_e1",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s2_e1_gpt54mini_001",
+      "canonical_id": "s2_e1",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s2_e1_gemini_001",
+      "canonical_id": "s2_e1",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s2_e2_qwen_001",
+      "canonical_id": "s2_e2",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s2_e2_gpt54mini_001",
+      "canonical_id": "s2_e2",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s2_e2_gemini_001",
+      "canonical_id": "s2_e2",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s4_e2_qwen_001",
+      "canonical_id": "s4_e2",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s4_e2_gpt54mini_001",
+      "canonical_id": "s4_e2",
+      "desired_basis": "A",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s4_e2_gemini_001",
+      "canonical_id": "s4_e2",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_g4_qwen_001",
+      "canonical_id": "s1_g4",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "s1_g4_gpt54mini_001",
+      "canonical_id": "s1_g4",
+      "desired_basis": "A",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "s1_g4_gemini_001",
+      "canonical_id": "s1_g4",
+      "desired_basis": "A",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "e2_g1_qwen_001",
+      "canonical_id": "e2_g1",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "e2_g1_gpt54mini_001",
+      "canonical_id": "e2_g1",
+      "desired_basis": "A",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "e2_g1_gemini_001",
+      "canonical_id": "e2_g1",
+      "desired_basis": "A",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "g1_h4_qwen_001",
+      "canonical_id": "g1_h4",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    },
+    {
+      "item_id": "g1_h4_gpt54mini_001",
+      "canonical_id": "g1_h4",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "g1_h4_gemini_001",
+      "canonical_id": "g1_h4",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    }
+  ],
+  "candidate_path": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_231628/candidates/candidate_0001.txt",
+  "generation_json": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_231628/generation/candidate_0001.json",
+  "monitor_json": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_231628/monitor/candidate_0001.json",
+  "monitor_csv": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_231628/monitor/candidate_0001.csv"
+}

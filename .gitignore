@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.log
+*.jsonl
+
+# model / cache
+.cache/
+*.pt
+*.bin
+*.ckpt
+
+# outputs
+outputs/
+output/
+results/
+tmp/
+
+# large files
+*.mp4
+*.zip
+*.tar.gz
+
+.DS_Store

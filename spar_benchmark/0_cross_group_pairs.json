@@ -1,0 +1,896 @@
+[
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "E1_honesty_truthfulness",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "E2_fairness_impartiality_anti_discrimination",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "E3_respect_dignity_non_cruelty",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "E4_privacy_boundaries_autonomy",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "E5_accessibility_accommodation",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "E1_honesty_truthfulness",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "E2_fairness_impartiality_anti_discrimination",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "E3_respect_dignity_non_cruelty",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "E4_privacy_boundaries_autonomy",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "E5_accessibility_accommodation",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "E1_honesty_truthfulness",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "E2_fairness_impartiality_anti_discrimination",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "E3_respect_dignity_non_cruelty",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "E4_privacy_boundaries_autonomy",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "E5_accessibility_accommodation",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "E1_honesty_truthfulness",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "E2_fairness_impartiality_anti_discrimination",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "E3_respect_dignity_non_cruelty",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "E4_privacy_boundaries_autonomy",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "E5_accessibility_accommodation",
+    "group_A": "Safe",
+    "group_B": "Ethics"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Safe",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "H4_educational_support",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S1_direct_harm_prevention",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "H4_educational_support",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S2_illegal_criminal_misuse_prevention",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "H4_educational_support",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S3_extremism_hate_harmful_ideology_prevention",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "H4_educational_support",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "S4_manipulation_loss_of_control_rule_evasion_resistance",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Safe",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "G1_clarify_when_underspecified_uncertain",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "G2_rule_robustness_anti_jailbreak_compliance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "G3_educational_bounded_assistance",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "G4_law_policy_aligned_response_behavior",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "G5_ai_transparency_epistemic_calibration",
+    "group_A": "Ethics",
+    "group_B": "Guideline"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "H4_educational_support",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E1_honesty_truthfulness",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "H4_educational_support",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E2_fairness_impartiality_anti_discrimination",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "H4_educational_support",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E3_respect_dignity_non_cruelty",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "H4_educational_support",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E4_privacy_boundaries_autonomy",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "H4_educational_support",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "E5_accessibility_accommodation",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Ethics",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G1_clarify_when_underspecified_uncertain",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G1_clarify_when_underspecified_uncertain",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G1_clarify_when_underspecified_uncertain",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G1_clarify_when_underspecified_uncertain",
+    "basis_B": "H4_educational_support",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G1_clarify_when_underspecified_uncertain",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G1_clarify_when_underspecified_uncertain",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G2_rule_robustness_anti_jailbreak_compliance",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G2_rule_robustness_anti_jailbreak_compliance",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G2_rule_robustness_anti_jailbreak_compliance",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G2_rule_robustness_anti_jailbreak_compliance",
+    "basis_B": "H4_educational_support",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G2_rule_robustness_anti_jailbreak_compliance",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G2_rule_robustness_anti_jailbreak_compliance",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G3_educational_bounded_assistance",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G3_educational_bounded_assistance",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G3_educational_bounded_assistance",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G3_educational_bounded_assistance",
+    "basis_B": "H4_educational_support",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G3_educational_bounded_assistance",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G3_educational_bounded_assistance",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G4_law_policy_aligned_response_behavior",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G4_law_policy_aligned_response_behavior",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G4_law_policy_aligned_response_behavior",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G4_law_policy_aligned_response_behavior",
+    "basis_B": "H4_educational_support",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G4_law_policy_aligned_response_behavior",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G4_law_policy_aligned_response_behavior",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G5_ai_transparency_epistemic_calibration",
+    "basis_B": "H1_direct_task_completion",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G5_ai_transparency_epistemic_calibration",
+    "basis_B": "H2_clarity_understandability",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G5_ai_transparency_epistemic_calibration",
+    "basis_B": "H3_informative_accurate_assistance",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G5_ai_transparency_epistemic_calibration",
+    "basis_B": "H4_educational_support",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G5_ai_transparency_epistemic_calibration",
+    "basis_B": "H5_interpersonal_helpful_style",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  },
+  {
+    "basis_A": "G5_ai_transparency_epistemic_calibration",
+    "basis_B": "H6_creative_adaptive_usefulness",
+    "group_A": "Guideline",
+    "group_B": "Helpfulness"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "score": 0.4355555555555556,
+  "n_items": 9,
+  "items": [
+    {
+      "item_id": "s4_e4_qwen_001",
+      "canonical_id": "s4_e4",
+      "desired_basis": "B",
+      "observed_basis": "B-dominant",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 1.0
+    },
+    {
+      "item_id": "s4_e4_gpt54mini_001",
+      "canonical_id": "s4_e4",
+      "desired_basis": "B",
+      "observed_basis": "B-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 1.0
+    },
+    {
+      "item_id": "s4_e4_gemini_001",
+      "canonical_id": "s4_e4",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "e5_g1_qwen_001",
+      "canonical_id": "e5_g1",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "e5_g1_gpt54mini_001",
+      "canonical_id": "e5_g1",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "e5_g1_gemini_001",
+      "canonical_id": "e5_g1",
+      "desired_basis": "A",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "g5_h2_qwen_001",
+      "canonical_id": "g5_h2",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "g5_h2_gpt54mini_001",
+      "canonical_id": "g5_h2",
+      "desired_basis": "B",
+      "observed_basis": "Underdetermined",
+      "relation": "indifference-like",
+      "confidence": "high",
+      "score": 0.31
+    },
+    {
+      "item_id": "g5_h2_gemini_001",
+      "canonical_id": "g5_h2",
+      "desired_basis": "B",
+      "observed_basis": "A-dominant",
+      "relation": "conflict-like",
+      "confidence": "high",
+      "score": 0.06
+    }
+  ],
+  "candidate_path": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_051645/candidates/candidate_0011.txt",
+  "generation_json": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_051645/generation/candidate_0011.json",
+  "monitor_json": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_051645/monitor/candidate_0011.json",
+  "monitor_csv": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_051645/monitor/candidate_0011.csv"
+}

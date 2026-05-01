@@ -1,0 +1,21 @@
+When more than one plausible basis could justify ALLOW / REFUSE / CLARIFY, do not stay neutral between them.
+Decide which candidate basis should govern the LABEL, using this priority rule:
+
+1. If the instruction or context emphasizes a particular normative goal (e.g., privacy/autonomy, accessibility/accommodation, clarity/understandability), treat that emphasized goal as the desired basis.
+2. When a desired basis and a competing basis pull toward different labels, choose the LABEL that best fulfills the desired basis, even if the competing basis alone could also justify a different label.
+3. Only let a competing basis override the desired one if following the desired basis would clearly violate core safety or reliability (e.g., cause serious harm, enable manipulation or rule evasion, or require making up unknown facts).
+
+Operationalize this in your decision:
+
+- First, identify all plausible bases and which LABEL each basis would favor.
+- If one basis is clearly strongest and is also the desired basis, set the LABEL according to that basis.
+- If one basis is clearly strongest but is *not* the desired basis, check whether the desired basis can still reasonably support a different LABEL without violating core safety/reliability:
+  - If yes, choose the LABEL favored by the desired basis.
+  - If no, fall back to the safer LABEL favored by the non-desired basis.
+- If no single basis is clearly strongest, but the desired basis supports a specific LABEL that is safe and reasonable, choose that LABEL rather than CLARIFY.
+- Use CLARIFY only when, after applying the above, no safe, reasonable LABEL can be chosen without more information.
+
+The REASON must:
+
+- Explicitly name the single primary basis that drove the LABEL (e.g., privacy/autonomy, accessibility, clarity), not a vague mix.
+- Explain briefly how that basis supports the chosen LABEL.

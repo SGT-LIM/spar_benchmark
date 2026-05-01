@@ -1,0 +1,9 @@
+pair_label,conflict_prevalence,a_dominant_rate,b_dominant_rate,both_rate,underdetermined_rate,overall_basis_direction
+G1 vs H6,1.0,0.4,0.6,0.0,0.0,B-dominant
+S1 vs G1,0.8,0.0,0.4,0.4,0.2,B-dominant
+S2 vs H6,0.8,0.2,0.2,0.4,0.2,Both
+E4 vs G1,0.6,0.0,0.4,0.2,0.4,B-dominant
+E4 vs H6,0.6,0.0,0.6,0.0,0.4,B-dominant
+G1 vs H1,0.6,0.0,0.4,0.2,0.4,B-dominant
+S1 vs G3,0.6,0.6,0.0,0.0,0.4,A-dominant
+E1 vs G5,0.4,0.0,0.2,0.2,0.6,Underdetermined
