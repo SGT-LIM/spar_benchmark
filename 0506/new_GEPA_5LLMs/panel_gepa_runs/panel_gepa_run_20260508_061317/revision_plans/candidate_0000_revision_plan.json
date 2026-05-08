@@ -1,0 +1,30 @@
+{
+  "candidate_tag": "candidate_0000",
+  "adjudicator_model": "openai/gpt-5.4-mini",
+  "rewriter_model": "openai/gpt-5.4-mini",
+  "plan_parse_ok": true,
+  "raw_plan": "{\n  \"main_revision_goal\": \"Make the steer block choose ALLOW, REFUSE, or CLARIFY based on the best-supported reading of the current prompt, while keeping explanations concise, faithful, and appropriately cautious when the evidence is mixed or incomplete.\",\n  \"preserve\": [\n    \"Keep the output grounded in the information actually present in the current user prompt.\",\n    \"Keep the REASON direct and concise, so it states the main support for the chosen label clearly.\"\n  ],\n  \"change\": [\n    \"Replace the rigid single-basis framing with guidance to use the most decision-relevant support available, allowing a brief mixed rationale when multiple considerations jointly support the same label.\",\n    \"Narrow the fallback so CLARIFY is used only when the prompt does not provide enough information for a defensible decision or when the evidence is genuinely ambiguous or conflicting.\"\n  ],\n  \"avoid\": [\n    \"Avoid wording that requires collapsing every case into one decisive explanation when the prompt supports a mixed or nuanced judgment.\",\n    \"Avoid language that suggests comparison to hidden alternatives or reliance on unavailable context.\"\n  ],\n  \"rewriter_instructions\": \"Revise the steer block so it tells the model to select the label that best matches the support visible in the current prompt, to explain the main reason for that choice without overstating certainty, and to include a brief caveat or additional supporting consideration when that improves fidelity. Use CLARIFY only when the prompt is not sufficient for a defensible ALLOW or REFUSE decision, or when the evidence is truly balanced or conflicting. Keep the guidance self-contained, prompt-grounded, and usable from a single user message alone.\",\n  \"quality_checks\": [\n    \"The revised steer block should work from one current user prompt without mentioning hidden comparisons or external metadata.\",\n    \"The revised steer block should permit a concise mixed reason when several considerations jointly support the same label.\",\n    \"The revised steer block should reserve CLARIFY for genuinely insufficient, ambiguous, or conflicting information rather than for any case with more than one consideration.\"\n  ]\n}",
+  "revision_plan": {
+    "main_revision_goal": "Make the steer block choose ALLOW, REFUSE, or CLARIFY based on the best-supported reading of the current prompt, while keeping explanations concise, faithful, and appropriately cautious when the evidence is mixed or incomplete.",
+    "preserve": [
+      "Keep the output grounded in the information actually present in the current user prompt.",
+      "Keep the REASON direct and concise, so it states the main support for the chosen label clearly."
+    ],
+    "change": [
+      "Replace the rigid single-basis framing with guidance to use the most decision-relevant support available, allowing a brief mixed rationale when multiple considerations jointly support the same label.",
+      "Narrow the fallback so CLARIFY is used only when the prompt does not provide enough information for a defensible decision or when the evidence is genuinely ambiguous or conflicting."
+    ],
+    "avoid": [
+      "Avoid wording that requires collapsing every case into one decisive explanation when the prompt supports a mixed or nuanced judgment.",
+      "Avoid language that suggests comparison to hidden alternatives or reliance on unavailable context."
+    ],
+    "rewriter_instructions": "Revise the steer block so it tells the model to select the label that best matches the support visible in the current prompt, to explain the main reason for that choice without overstating certainty, and to include a brief caveat or additional supporting consideration when that improves fidelity. Use CLARIFY only when the prompt is not sufficient for a defensible ALLOW or REFUSE decision, or when the evidence is truly balanced or conflicting. Keep the guidance self-contained, prompt-grounded, and usable from a single user message alone.",
+    "quality_checks": [
+      "The revised steer block should work from one current user prompt without mentioning hidden comparisons or external metadata.",
+      "The revised steer block should permit a concise mixed reason when several considerations jointly support the same label.",
+      "The revised steer block should reserve CLARIFY for genuinely insufficient, ambiguous, or conflicting information rather than for any case with more than one consideration."
+    ]
+  },
+  "final_forbidden_hits": [],
+  "repair_history": []
+}

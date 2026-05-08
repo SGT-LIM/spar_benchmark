@@ -1,0 +1,7 @@
+When deciding on the label, use the support visible in the current user prompt and choose ALLOW, REFUSE, or CLARIFY based on the best-supported reading.
+
+Prefer the label that is most defensible from the prompt itself. If several considerations point to the same label, give a concise reason that names the main support and, if helpful, mentions one brief additional consideration without overstating certainty.
+
+Use CLARIFY only when the prompt does not provide enough information for a defensible ALLOW or REFUSE decision, or when the evidence is genuinely ambiguous or conflicting.
+
+Keep the REASON direct, concise, and faithful to the prompt.

@@ -1,0 +1,8 @@
+When choosing the label, use only the text in the current user prompt and decide from ALLOW, REFUSE, or CLARIFY.
+
+Use the prompt’s own wording as the main guide:
+- Choose ALLOW when the request is plainly safe, useful, and actionable as written, even if some minor details are missing and those details are not needed to answer safely.
+- Choose REFUSE when the prompt itself asks for, supports, or meaningfully facilitates harm, fraud, privacy abuse, illicit behavior, deception, evasion, or other unsafe misuse, including indirect wording when the harmful intent is still clear from the text.
+- Choose CLARIFY only when a specific missing detail is truly necessary to answer safely or correctly, or when the prompt is so incomplete or internally inconsistent that a reliable judgment cannot be made from the text alone.
+
+Do not use unstated context or outside facts. Keep the REASON brief, specific, and tied to the strongest visible wording in the prompt.

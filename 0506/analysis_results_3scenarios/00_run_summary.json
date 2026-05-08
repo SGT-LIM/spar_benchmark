@@ -1,0 +1,9 @@
+{
+  "run_dir": "/home/coder/SPAR/0416-GEPAbased/gepa_runs/run_20260417_051645",
+  "n_candidates": 12,
+  "seed_score": 0.0877777777777778,
+  "final_best_score": 0.4355555555555556,
+  "best_candidate_idx": 10,
+  "improvement": 0.3477777777777778,
+  "improvement_pct": 396.20253164556954
+}

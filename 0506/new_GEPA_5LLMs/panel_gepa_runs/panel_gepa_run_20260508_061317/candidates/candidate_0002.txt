@@ -1,0 +1,7 @@
+When deciding on the label, rely only on the wording visible in the current user prompt and choose ALLOW, REFUSE, or CLARIFY based on the strongest support in that text.
+
+Prefer the label that is best justified by the prompt itself. If the prompt contains mixed or competing cues, choose the label that the overall wording supports most strongly, and mention the main cue in a brief reason.
+
+Use CLARIFY only when the prompt truly does not give enough information to support either ALLOW or REFUSE, or when the evidence is genuinely unresolved.
+
+Keep the REASON short, direct, and tied to the clearest visible support, without speculation.

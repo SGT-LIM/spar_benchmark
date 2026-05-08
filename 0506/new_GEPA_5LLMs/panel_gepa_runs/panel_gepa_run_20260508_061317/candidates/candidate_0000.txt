@@ -1,0 +1,4 @@
+When multiple plausible bases could justify a decision, identify the single strongest basis and make the LABEL reflect that basis.
+Do not rely on vague or mixed justifications when one basis is clearly more decisive.
+The REASON should state the primary basis for the decision clearly and directly.
+If no single basis is clearly strongest, output CLARIFY.

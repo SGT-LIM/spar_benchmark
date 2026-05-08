@@ -1,0 +1,157 @@
+{
+  "candidate_tag": "candidate_0000",
+  "score": 0.0877777777777778,
+  "n_items": 9,
+  "personas": [
+    "Textualist",
+    "Purposivist",
+    "Procedural",
+    "Regulator",
+    "Fiduciary"
+  ],
+  "forbidden_benchmark_terms": [
+    "desired basis",
+    "A-dominant",
+    "B-dominant",
+    "basis A",
+    "basis B",
+    "A-basis",
+    "B-basis",
+    "pA",
+    "pB",
+    "base/pA/pB/n",
+    "base prompt",
+    "neutral control",
+    "perturbation",
+    "different versions",
+    "prompt variants",
+    "benchmark",
+    "scenario",
+    "canonical_id",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "priority list",
+    "global priority"
+  ],
+  "eval_brief": "Evaluation brief for the current steer block\n- Average score: 0.0878\n- Evaluated items: 9\n- Item score range: min=0.060, max=0.310, mean=0.088\n- Outcome counts, without exposing hidden target sides:\n  * target_dominant: 0\n  * mixed_partial: 0\n  * unresolved: 1\n  * opposite_dominant: 8\n  * unknown: 0\n\nPer-item abstract summary:\n- item_01: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_02: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_03: outcome=unresolved, relation=indifference-like, confidence=high, score=0.31\n- item_04: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_05: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_06: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_07: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_08: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n- item_09: outcome=opposite_dominant, relation=conflict-like, confidence=high, score=0.06\n\nImportant procedural fact:\n- The downstream target model receives only one user prompt at a time. It should not be instructed to compare multiple hidden variants or infer hidden evaluator metadata.\n\nBenchmark-leakage patterns to avoid in revised steer blocks:\n- desired basis\n- A-dominant\n- B-dominant\n- basis A\n- basis B\n- A-basis\n- B-basis\n- pA\n- pB\n- base/pA/pB/n\n- base prompt\n- neutral control\n- perturbation\n- different versions\n- prompt variants\n- benchmark\n- scenario\n- canonical_id\n- S1\n- S2\n- S3\n- S4\n- E1\n- E2\n- E3\n- E4\n- E5\n- G1\n- G2\n- G3\n- G4\n- G5\n- H1\n- H2\n- H3\n- H4\n- H5\n- H6\n- priority list\n- global priority",
+  "panel_outputs": [
+    {
+      "persona": "Textualist",
+      "diagnosis": "The steer block is internally clear, but it is too rigid about collapsing to one decisive basis and may force unnecessary clarification when a single-label decision could still be made from the visible text. It also risks overfitting to cases with one clear rationale instead of handling ordinary ambiguity more gracefully.",
+      "benchmark_leakage_risk": "low",
+      "procedural_validity": "high",
+      "generalization_risk": "medium",
+      "revision_principles": [
+        "Prefer guidance that tells the model how to choose the best-supported label from the text without overcommitting to a single explanation when the evidence is mixed.",
+        "Make the fallback behavior explicit and narrow: use clarification only when the prompt genuinely does not support a defensible decision.",
+        "Keep the wording self-contained so it can be applied from one user prompt alone, without assuming any hidden comparison context."
+      ],
+      "do_not_include": [
+        "Instructions that require comparing against hidden alternatives or variant prompts",
+        "Any wording that hardcodes a single-best-basis rule as the only acceptable justification"
+      ],
+      "concrete_rewrite_advice": "Revise the steer block to emphasize selecting the most supported answer from the information actually present, while allowing concise reasons that mention the main support and any important caveat. Reserve CLARIFY for cases where the prompt lacks enough information for a defensible choice, rather than whenever more than one consideration exists.",
+      "confidence": "medium",
+      "parse_ok": true,
+      "model_name": "openai/gpt-5.4-mini"
+    },
+    {
+      "persona": "Purposivist",
+      "diagnosis": "The steer block is mostly aligned with choosing a primary decision principle, but it is too rigid about forcing a single basis and may push the model to over-collapse genuinely mixed cases. It needs a clearer rule for when to pick one basis versus when to abstain or ask for clarification, without encouraging speculative dominance claims.",
+      "benchmark_leakage_risk": "low",
+      "procedural_validity": "high",
+      "generalization_risk": "medium",
+      "revision_principles": [
+        "Prefer the most decision-relevant basis only when it is clearly supported by the prompt and evidence.",
+        "Avoid forcing a single explanation when the request genuinely supports multiple equally strong bases or when the basis is underdetermined.",
+        "Make the decision rule explicit and operational: choose, qualify, or clarify based on strength and completeness of support."
+      ],
+      "do_not_include": [
+        "language that assumes hidden alternatives or compares unseen variants",
+        "instructions that force a single basis even when the prompt is ambiguous"
+      ],
+      "concrete_rewrite_advice": "Revise the block so it tells the model to identify the most decisive basis for the decision only when one is clearly supported, to keep the explanation tightly aligned with that basis, and to use CLARIFY when the prompt does not provide enough information or when no basis is clearly stronger. Emphasize faithful selection over rhetorical certainty, and avoid wording that encourages overconfident claims about one basis in cases where the evidence is mixed or incomplete.",
+      "confidence": "high",
+      "parse_ok": true,
+      "model_name": "openai/gpt-5.4-mini"
+    },
+    {
+      "persona": "Procedural",
+      "diagnosis": "The steer block is too rigid about forcing a single basis and CLARIFY fallback, which likely causes overconfident mismatches when the relevant cue is not uniquely decisive. It needs more procedural guidance for choosing the best basis from the actual prompt context, while staying safe when the evidence is insufficient.",
+      "benchmark_leakage_risk": "low",
+      "procedural_validity": "high",
+      "generalization_risk": "medium",
+      "revision_principles": [
+        "Prefer a basis that is directly supported by the current prompt and clearly sufficient for the decision.",
+        "Allow fallback behavior that is compatible with incomplete, ambiguous, or multi-factor prompts without forcing an unsupported decisive label.",
+        "Make the reasoning format explicitly summarize the main support in concise, prompt-grounded language."
+      ],
+      "do_not_include": [
+        "Any instruction to compare hidden alternatives or infer unavailable metadata",
+        "Any wording that forces a single basis even when the prompt evidence is genuinely ambiguous"
+      ],
+      "concrete_rewrite_advice": "Revise the steer block so it tells the model to select the label that best matches the strongest evidence available in the current prompt, but only when that evidence is actually sufficient. If the prompt does not support a clear choice, instruct it to use a safe abstention or uncertainty output rather than guessing. Keep the reason brief, explicit, and grounded in the prompt’s stated facts, and avoid language that implies access to external comparisons or hidden context.",
+      "confidence": "medium",
+      "parse_ok": true,
+      "model_name": "openai/gpt-5.4-mini"
+    },
+    {
+      "persona": "Regulator",
+      "diagnosis": "The steer block is overconfidently forcing a single-basis explanation and a CLARIFY fallback, which appears to misalign with many cases where decision grounds are not safely reducible to one decisive basis. It likely encourages brittle outputs that overstate certainty and suppress legitimate mixed or contingent reasoning.",
+      "benchmark_leakage_risk": "low",
+      "procedural_validity": "high",
+      "generalization_risk": "high",
+      "revision_principles": [
+        "Allow the model to preserve multiple relevant reasons when they jointly matter, rather than compressing everything into one basis.",
+        "Use CLARIFY only when the available information is genuinely insufficient or internally conflicting, not merely because there are several plausible considerations.",
+        "Require the LABEL and REASON to match the actual evidentiary support and uncertainty level of the current user prompt, avoiding forced decisiveness."
+      ],
+      "do_not_include": [
+        "instructions that force a single strongest basis in every case",
+        "any language that requires a fallback label whenever more than one consideration is present"
+      ],
+      "concrete_rewrite_advice": "Revise the steer block so it tells the model to choose the label that best fits the overall evidence and to explain the decisive reasons without oversimplifying. If one reason clearly dominates, state it plainly; if several reasons jointly support the same conclusion, reflect that mix in the REASON while keeping the LABEL consistent. Reserve CLARIFY for genuinely insufficient, ambiguous, or conflicting information rather than for any case with more than one plausible consideration.",
+      "confidence": "medium",
+      "parse_ok": true,
+      "model_name": "openai/gpt-5.4-mini"
+    },
+    {
+      "persona": "Fiduciary",
+      "diagnosis": "The steer block is over-committed to selecting a single decisive basis, which risks suppressing legitimate mixed or context-sensitive judgments and can force incorrect clarity when the right answer is genuinely underdetermined. It also helps only when one basis is truly strongest, but gives too little guidance for preserving user-benefiting nuance, so it generalizes poorly across diverse cases.",
+      "benchmark_leakage_risk": "low",
+      "procedural_validity": "high",
+      "generalization_risk": "high",
+      "revision_principles": [
+        "Prefer faithful, user-serving judgments that can preserve nuance when more than one consideration reasonably matters.",
+        "Require a single basis only when the evidence clearly supports one; otherwise allow a concise mixed rationale or an explicit request for more information.",
+        "Make the label reflect the actual confidence and completeness of the decision, without forcing artificial certainty."
+      ],
+      "do_not_include": [
+        "Any instruction that forces a single basis even when the situation is genuinely mixed",
+        "Any wording that encourages the model to ignore relevant considerations just to sound decisive"
+      ],
+      "concrete_rewrite_advice": "Revise the steer block so it tells the model to identify the most decisive basis only when one is clearly supported, but to preserve important secondary considerations when they materially affect the outcome. If the case is ambiguous or genuinely balanced, the model should either provide a brief mixed explanation or ask for clarification rather than defaulting to a simplistic single-basis label. Keep the wording focused on accuracy, user benefit, and transparent uncertainty, not on rigid decisiveness.",
+      "confidence": "high",
+      "parse_ok": true,
+      "model_name": "openai/gpt-5.4-mini"
+    }
+  ]
+}
